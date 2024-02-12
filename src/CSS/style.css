@@ -81,16 +81,17 @@ h2.title {
   font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.bonus .bonus_btn {
   display: block;
   color: #fff;
   margin: 0 auto;
   margin-top: 50px;
   width: 313px;
   height: 72px;
-  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.4);
-  border: 4px solid rgba(0, 0, 0, 0.23);
-  background: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  border: none;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
   font-family: 'Roboto Bold';
   text-transform: uppercase;
   font-size: 16px;
@@ -98,6 +99,7 @@ h2.title {
   text-align: center;
   cursor: pointer;
   outline: none;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
 }
 
 .more {
@@ -125,7 +127,8 @@ h2.title {
   padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header,
+.finish .finish_header {
   color: #252525;
   font-family: Roboto;
   font-size: 30px;
@@ -134,7 +137,12 @@ h2.title {
   text-align: center;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+  color: white;
+}
+
+.waiting .waiting_divider,
+.finish .finish_divider {
   margin: 0 auto;
   margin-top: 18px;
   width: 217px;
@@ -210,4 +218,75 @@ h2.title {
   top: 48px;
   left: 240px;
   z-index: -1;
+}
+
+.finish {
+  min-height: 447px;
+  padding: 86px 0 79px 0;
+  background: url('/src/img/background/second_bg.png') center center/cover
+    no-repeat;
+}
+
+.finish .finish_wrapper {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+  width: 204px;
+}
+
+.finish .finish_wrapper .finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  margin-top: 25px;
+  color: #efefef;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.bonus {
+  min-height: 630px;
+  margin: 85px 0 88px 0;
+}
+
+.bonus .bonus_img {
+  display: block;
+  margin: 0 auto;
+  width: 154px;
+  height: 174px;
+}
+
+.bonus .bonus_text {
+  margin-top: 45px;
+  font-family: Roboto Regular;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #252525;
+}
+
+.bonus .bonus_btn {
+  margin-top: 50px;
+  width: 313px;
+  height: 72px;
+}
+
+.meet {
+  min-height: 630px;
+  margin: 90px 0;
 }
