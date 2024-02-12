@@ -118,7 +118,7 @@ h2.title {
 .more .more_img {
   display: block;
   margin: 0 auto;
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .waiting {
@@ -259,8 +259,9 @@ h2.title {
 }
 
 .bonus {
+  background-color: #efefef;
   min-height: 630px;
-  margin: 85px 0 88px 0;
+  padding: 85px 0 88px 0;
 }
 
 .bonus .bonus_img {
@@ -271,11 +272,12 @@ h2.title {
 }
 
 .bonus .bonus_text {
+  height: 113px;
   margin-top: 45px;
-  font-family: Roboto Regular;
+  font-family: 'Roboto', regular;
   font-weight: 400;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 40px;
   text-align: center;
   color: #252525;
 }
@@ -287,6 +289,73 @@ h2.title {
 }
 
 .meet {
-  min-height: 630px;
-  margin: 90px 0;
+  min-height: 512px;
+  padding: 90px 0 50px 0;
+}
+
+.meet .meet_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.meet .meet_text {
+  margin-top: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #252525;
+}
+
+.meet .meet_time_text {
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #299cbd;
+}
+
+.meet .meet_text_places {
+  margin-top: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.footer {
+  min-height: 169px;
+  background-color: black;
+  padding: 57px 0 70px 0;
+  color: #888;
+}
+
+.footer .footer_info {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 407px;
+}
+
+.footer .footer_info_href {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-align: center;
+}
+
+.footer .footer_phone {
+  text-align: center;
+  margin-top: 9px;
+  text-decoration: none;
+}
+
+.footer .footer_info .footer_phone_href {
 }
