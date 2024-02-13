@@ -10,7 +10,12 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 h1 {
+  margin: 0;
   margin-top: 53px;
 }
 
@@ -20,7 +25,7 @@ h1 {
 }
 
 .promo {
-  height: 800px;
+  min-height: 800px;
   background: url('/src/img/background/main_bg.png') center center/cover
     no-repeat;
   padding: 39px 0 62px 0;
@@ -33,21 +38,19 @@ h1 {
 
 .logo .logo_text {
   color: #fff;
-  font-family: 'Roboto';
   font-size: 15px;
-  font-weight: 500;
   text-transform: uppercase;
+  font-weight: 500;
   text-align: center;
   margin-top: 14px;
 }
 
 h2.title {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .title {
   color: #f9bf3b;
-  font-family: 'Roboto - Black';
   font-size: 41px;
   font-weight: 900;
   text-transform: uppercase;
@@ -56,19 +59,17 @@ h2.title {
 
 .simple .title_big {
   color: #fff;
-  font-family: 'Roboto - Black';
   font-size: 80px;
-  font-weight: 900;
   text-transform: uppercase;
+  font-weight: 900;
   text-align: center;
-  margin-top: 21px;
+  margin-top: 20px;
 }
 
 .promo .promo_text {
   padding: 0 13px;
   margin-top: 23px;
   color: #fff;
-  font-family: 'Roboto Light';
   font-size: 21px;
   font-weight: 300;
   line-height: 28px;
@@ -77,8 +78,6 @@ h2.title {
 
 .promo .promo_text span {
   color: #f9bf3b;
-  font-family: 'Roboto Bold';
-  font-weight: 700;
 }
 
 .promo .promo_btn,
@@ -92,7 +91,6 @@ h2.title {
   border: none;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
   background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
-  font-family: 'Roboto Bold';
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -107,10 +105,9 @@ h2.title {
 }
 
 .more .more_text {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.503);
   font-size: 15px;
   font-weight: 100;
-  font-family: 'Roboto - Thin';
   text-transform: uppercase;
   text-align: center;
 }
@@ -130,7 +127,6 @@ h2.title {
 .waiting .waiting_header,
 .finish .finish_header {
   color: #252525;
-  font-family: Roboto;
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
@@ -153,7 +149,6 @@ h2.title {
 .waiting .waiting_subheader {
   margin-top: 17px;
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 23px;
   font-weight: 400;
   text-align: center;
@@ -177,7 +172,6 @@ h2.title {
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
   margin-top: 33px;
   color: #4a4a4a;
-  font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -185,16 +179,15 @@ h2.title {
 
 .optimization {
   min-height: 550px;
-  padding: 102px 0 107px 0;
+  padding: 108px 0 74px 0;
   position: relative;
 }
 
 .optimization .optimization_header {
   margin-left: 391px;
   color: #299cbd;
-  font-family: 'Roboto - Black';
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
@@ -202,21 +195,18 @@ h2.title {
   margin-top: 25px;
   margin-left: 391px;
   color: #4a4a4a;
-  font-family: 'Roboto Light';
   font-size: 17px;
   line-height: 27px;
-  font-weight: 300;
 }
 
 .optimization .optimization_text span {
-  font-family: 'Roboto Bold';
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .optimization .optimization_img {
   position: absolute;
-  top: 48px;
   left: 240px;
+  bottom: 0;
   z-index: -1;
 }
 
@@ -252,9 +242,8 @@ h2.title {
   margin-top: 25px;
   color: #efefef;
   text-align: center;
-  font-family: Roboto;
-  font-size: 17px;
   font-weight: 300;
+  font-size: 17px;
   line-height: 20px;
 }
 
@@ -274,9 +263,8 @@ h2.title {
 .bonus .bonus_text {
   height: 113px;
   margin-top: 45px;
-  font-family: 'Roboto', regular;
-  font-weight: 400;
   font-size: 30px;
+  font-weight: 400;
   line-height: 40px;
   text-align: center;
   color: #252525;
@@ -300,9 +288,8 @@ h2.title {
 
 .meet .meet_text {
   margin-top: 36px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 30px;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   color: #252525;
@@ -310,9 +297,8 @@ h2.title {
 
 .meet .meet_time_text {
   margin-top: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
   font-size: 36px;
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   color: #299cbd;
@@ -320,9 +306,8 @@ h2.title {
 
 .meet .meet_text_places {
   margin-top: 25px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 23px;
+  font-weight: 400;
   text-align: center;
   color: #4a4a4a;
 }
@@ -331,6 +316,7 @@ h2.title {
   min-height: 169px;
   background-color: black;
   padding: 57px 0 70px 0;
+  font-weight: 300;
   color: #888;
 }
 
@@ -343,8 +329,6 @@ h2.title {
 }
 
 .footer .footer_info_href {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   font-size: 15px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -355,7 +339,4 @@ h2.title {
   text-align: center;
   margin-top: 9px;
   text-decoration: none;
-}
-
-.footer .footer_info .footer_phone_href {
 }
