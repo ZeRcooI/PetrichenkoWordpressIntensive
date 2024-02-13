@@ -8,6 +8,6 @@
 - практика тегов
 - научился выстраивать правильную архитектуру
 
-![Screenshot](https://github.com/ZeRcooI/IPhone14Website/blob/main/figma/Screenshot%202024-02-13%20172510.jpg)
+![Screenshot](https://github.com/ZeRcooI/WordpressIntensive/blob/main/src/figma/Screenshot%202024-02-13%20181319.jpg)
 
  
